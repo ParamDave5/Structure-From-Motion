@@ -4,8 +4,8 @@ The algorithm of the same is:
 
 * Feature Matching and Outlier rejection using RANSAC
 
-*  Estimating Fundamental Matrix
-* Estimating Essential Matrix from Fundamental Matrix using the 8-point method
+*  Estimating Fundamental Matrix using the 8-point method
+* Estimating Essential Matrix from Fundamental Matrix 
 * Estimate Camera Pose from Essential Matrix. Decompose Essential Matrix 
 * Check for Cheirality Condition using Linear Triangulation
 * Perform Non Linear Traingulation 
