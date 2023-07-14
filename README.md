@@ -1,9 +1,20 @@
-## CMSC733 Project 3: Buildings built in minutes - An SfM Approach
+# SFM
+This repository implements reconstruction of a 3D scene and simulataneously obtaining the camera poses of a monocular camera w.r.t the scene. 
+The algorithm of the same is:
 
-To run the code
-```
-python3 Wrapper.py --DataPath ./Data/ --SavePath ./saved/
-```
+* Feature Matching and Outlier rejection using RANSAC
 
---Data Path : Path to data folder
---Savepath : Path where you want to save the outputs and numpy files
+*  Estimating Fundamental Matrix
+* Estimating Essential Matrix from Fundamental Matrix
+* Estimate Camera Pose from Essential Matrix
+* Check for Cheirality Condition using Triangulation
+* Perspective-n-Point
+ * Bundle Adjustment
+
+<img src ="Data/Results/BundleAdjustment56.png" width=400/>
+
+## Run Instructions
+
+```
+python Wrapper.py --Path PATH_TO_DATA --Filtered False
+```
