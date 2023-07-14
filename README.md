@@ -5,10 +5,11 @@ The algorithm of the same is:
 * Feature Matching and Outlier rejection using RANSAC
 
 *  Estimating Fundamental Matrix
-* Estimating Essential Matrix from Fundamental Matrix
-* Estimate Camera Pose from Essential Matrix
-* Check for Cheirality Condition using Triangulation
-* Perspective-n-Point
+* Estimating Essential Matrix from Fundamental Matrix using the 8-point method
+* Estimate Camera Pose from Essential Matrix. Decompose Essential Matrix 
+* Check for Cheirality Condition using Linear Triangulation
+* Perform Non Linear Traingulation 
+* Linear and Non-Linear Perspective-n-Point
  * Bundle Adjustment
 
 <img src ="Data/Results/BundleAdjustment56.png" width=400/>
