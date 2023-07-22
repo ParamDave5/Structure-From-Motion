@@ -12,7 +12,7 @@ The algorithm of the same is:
 * Linear and Non-Linear Perspective-n-Point
  * Bundle Adjustment
 
-<img src ="Data/Results/BundleAdjustment56.png" width=400/>
+<img src ="BundleAdjustment56.png" width=400/>
 
 ## Run Instructions
 
